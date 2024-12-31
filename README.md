@@ -1,65 +1,65 @@
-# Stubble Burning Prediction Project
+# Stubble-Burning-Prediction-Project
 
-This repository contains the work undertaken during the fifth semester of the ILGC program to address the pressing environmental and health issue of stubble burning in Punjab, India. The project integrates advanced machine learning, geospatial data analysis, and sustainable development strategies to predict and mitigate stubble burning incidents.
+This project aims to address the environmental and health challenges caused by stubble burning in Punjab, India. By leveraging machine learning and geospatial data, it identifies hotspots and proposes sustainable solutions for farmers.
 
-## Problem Statement
+## Table of Contents
 
-Stubble burning affects over 7 million acres of farmland in Punjab annually and contributes significantly to air pollution. It releases about 149 million tons of CO₂ and harmful particulate matter like PM2.5, worsening air quality and causing severe health issues. Despite government regulations, this practice persists due to the high cost of alternatives and the need for quick field preparation for successive cropping.
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Methodology](#methodology)
+- [Results](#results)
+- [Future Scope](#future-scope)
+- [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
 
-## Project Components
+---
 
-The project focuses on four key sub-problems:
+## Introduction
 
-1. **Developing a Prediction Model**  
-   - Machine learning-based model trained on historical and geospatial data to predict stubble burning hotspots.
-   - High accuracy ensures strategic planning for preemptive measures.
+Stubble burning is a significant contributor to air pollution in India, releasing harmful pollutants and CO₂, while negatively impacting public health. This project:
 
-2. **On-Ground Validation**  
-   - Physical checks by researchers validate the model’s predictions.
-   - Enhances practical applicability by bridging theoretical data with real-world scenarios.
+- Develops a machine learning model to predict stubble burning hotspots.
+- Validates predictions through on-ground research and real-time data collection.
+- Explores sustainable alternatives for farmers to reduce dependency on burning.
 
-3. **Identification of Sustainable Alternatives**  
-   - Research into viable, eco-friendly alternatives to stubble burning.
-   - Exploration of crop residue repurposing for industrial uses to offer economic benefits to farmers.
+---
 
-4. **Implementation Pipeline**  
-   - Creation of logistical and economic frameworks to incentivize farmers for adopting sustainable practices.
+## Key Features
+
+- **Prediction Model**: Identifies burning hotspots using geospatial and historical data.
+- **On-Ground Validation**: Enhances prediction accuracy with real-world data verification.
+- **Sustainable Alternatives**: Suggests repurposing crop residue for industrial use.
+- **Implementation Framework**: Proposes logistical and economic solutions for farmer adoption.
+
+---
 
 ## Methodology
 
-The project employs the following steps:
+The project employs the following approach:
 
-- **Data Cleaning and Preprocessing**: Ensures the quality and reliability of data.
-- **Data Verification**: Cross-verifies predictions with ground-truth labels.
-- **Model Building and Evaluation**: Iterative testing and feedback with metrics like precision, recall, and F1 score.
-- **Indices Used**:
-  - Normalized Burn Ratio (NBR)
-  - Burned Area Index (BAI)
-  - Normalized Difference Vegetation Index (NDVI)
+1. **Data Cleaning and Preprocessing**: Ensures quality and reliability of datasets.
+2. **Data Verification**: Cross-validates predictions with ground-truth labels.
+3. **Model Building and Evaluation**: Utilizes metrics like precision, recall, and F1 score.
+4. **Indices Utilized**:
+   - Normalized Burn Ratio (NBR)
+   - Burned Area Index (BAI)
+   - Normalized Difference Vegetation Index (NDVI)
 
-## Key Results
+---
 
-- **Prediction Accuracy**: Achieved 53% accuracy, particularly effective in identifying non-burned plots to reduce false positives.
-- **Data Points Validated**: Thousands of data points across various states were validated.
-- **Web Application**: A Django-based application for real-time data collection and validation was developed, enabling on-ground researchers to log fire sites, upload images, and enhance prediction accuracy.
+## Results
 
-## Collaboration
+- Achieved **53% prediction accuracy**, with high efficacy in identifying non-burned plots.
+- Thousands of data points validated across multiple states.
+- A **Django-based web application** developed for real-time data collection and validation.
 
-The project is supported by a partnership with **Saroja Earth**, a startup providing:
-
-- High-resolution multi-spectral data from Sentinel satellites.
-- Hyperspectral data from NASA's AVIRIS.
-- Datasets from government and private sources for monitoring agricultural fields.
+---
 
 ## Future Scope
 
-- **Enhanced Predictive Capabilities**: Expand historical datasets to improve accuracy.
-- **Health Hazard Research**: Investigate air quality and public health impacts of stubble burning.
-- **Continued Field Collaboration**: Strengthen on-ground validation efforts.
-
-## Summary
-
-This project represents a holistic approach to solving the stubble burning crisis in Punjab. By leveraging machine learning, advanced data analytics, and sustainable alternatives, it aims to reduce air pollution and improve public health.
+- **Refined Predictions**: Expand datasets to improve model accuracy.
+- **Health Impact Studies**: Analyze the effects of stubble burning on air quality and public health.
+- **Field Collaboration**: Strengthen partnerships with researchers for enhanced validation.
 
 ---
 
