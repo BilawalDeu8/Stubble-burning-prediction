@@ -9,8 +9,6 @@ This project aims to address the environmental and health challenges caused by s
 - [Methodology](#methodology)
 - [Results](#results)
 - [Future Scope](#future-scope)
-- [Technologies Used](#technologies-used)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
